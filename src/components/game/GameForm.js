@@ -27,7 +27,7 @@ export const GameForm = () => {
 
     const changeGameState = (domEvent) => {
         // TODO: Complete the onChange function
-        domEvent.preventDefault()
+        //domEvent.preventDefault()
         const copy = {...currentGame}
         copy[domEvent.target.name] = domEvent.target.value
         setCurrentGame(copy)

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useNavigate,useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { getGameTypes, getGameById, updateGame } from "../../managers/GameManager"
 
 export const UpdateGame = () => {
